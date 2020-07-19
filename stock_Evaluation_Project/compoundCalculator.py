@@ -14,7 +14,7 @@ def compoundCalculator(initialCaptial, monthlyContribuition, timeSpanInMonths, g
         finalCapital = (finalCapital + monthlyContribuition * 12) * (1 + (growthRate / 100))
         i += 1
     print("Final capital: ", finalCapital)
-    print("Monthly payout at 3.5%\: ", "{:.2f}".format((finalCapital * 0.035) / 12))
+    print("Monthly payout at 3.5%: ", "{:.2f}".format((finalCapital * 0.035) / 12))
     
     
 main()
